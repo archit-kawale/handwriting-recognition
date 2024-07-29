@@ -1,0 +1,31 @@
+
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore virtual environment directory and configuration file
+pyvenv.cfg
+cuda-repo-wsl-ubuntu-12-5-local_12.5.1-1_amd64.deb
+cudnn-local-repo-ubuntu2204-9.2.1_1.0-1_amd64.deb
+# Add the virtual environment directory name if different
+bin/
+include/
+lib/
+lib64/
+share/
+/resources
+# Ignore any compiled libraries or shared objects
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore hidden system files (optional)
+.DS_Store
